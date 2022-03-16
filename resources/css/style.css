@@ -2,6 +2,7 @@
     font-family: Helvetica;
     color: seashell;
     background-color: black;
+    text-align: center;
     opacity: 0.9;
 }
 
@@ -69,7 +70,6 @@ a {
 
 /* Featured Tea Section */
 #featured-tea {
-    text-align: center;
     width: 1000px;
     margin-top: 75px;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ a {
     margin-top: 10px;
 }
 
-/* Locations Section 
+/* Locations Section */
 #locations {
     background-image: url(../images/img-locations-background.jpg);
     height: 500px;
@@ -101,8 +101,4 @@ a {
      opacity: 1;
      width: 300px;
      margin: 15px 20px;
- }
-
- .container-2 h3, .container-2 p{
-     text-align: center;
  }
