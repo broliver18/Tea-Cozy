@@ -42,10 +42,6 @@ a {
 
 /* Body */
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
     top: 62px;
 }
@@ -57,7 +53,7 @@ a {
     align-items: center;
     background-image: url(../images/img-mission-background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 0 auto;
     height: 700px;
     max-width: 1200px;
 }
@@ -70,7 +66,7 @@ a {
 /* Featured Tea Section */
 #featured-tea {
     width: 1000px;
-    margin-top: 75px;
+    margin: 75px auto 0;
     flex-wrap: wrap;
 }
 
@@ -88,9 +84,10 @@ a {
     margin-top: 10px;
 }
 
-/* Locations Section */
+/* Locations Section 
 #locations {
     background-image: url(../images/img-locations-background.jpg);
+    margin: 0 auto;
     height: 500px;
     width: 1200px;
 }
