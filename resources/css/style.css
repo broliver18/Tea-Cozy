@@ -46,6 +46,10 @@ a {
     top: 62px;
 }
 
+body {
+    margin: 0;
+}
+
 /* Mission Section */
 #mission {
     display: flex;
@@ -59,7 +63,6 @@ a {
 }
 
 .banner {
-    margin: auto;
     width: 100%;
 }
 
