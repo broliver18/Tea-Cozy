@@ -117,6 +117,16 @@
      padding: 7px;
  }
 
- .footer {
-     margin-top: 0;
- }
+ /* Footer Section */
+.footer {
+    margin-bottom: 80px;
+}
+
+.contact-info {
+    margin: 40px auto;
+}
+
+#copyright{
+    margin-left: 15px;
+    text-align: left;
+}
