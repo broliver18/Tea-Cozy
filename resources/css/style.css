@@ -97,7 +97,9 @@ body {
     max-width: 1200px;
 }
 
-
+#locations h2 {
+    background-color: transparent;
+}
 
  .container-2 {
      display: inline-block;
