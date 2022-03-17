@@ -6,6 +6,10 @@
     opacity: 0.9;
 }
 
+body {
+    margin: 0;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -36,7 +40,7 @@
     font-size: 22px;
 }
 
-a {
+.navigation a {
     padding: 15px;
 }
 
@@ -44,10 +48,6 @@ a {
 .main {
     position: relative;
     top: 62px;
-}
-
-body {
-    margin: 0;
 }
 
 /* Mission Section */
@@ -96,6 +96,8 @@ body {
     height: 500px;
     max-width: 1200px;
 }
+
+
 
  .container-2 {
      display: inline-block;
