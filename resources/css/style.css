@@ -68,7 +68,7 @@ body {
 
 /* Featured Tea Section */
 #featured-tea {
-    width: 1000px;
+    max-width: 1000px;
     margin: 75px auto 0;
     flex-wrap: wrap;
 }
