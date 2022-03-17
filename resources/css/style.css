@@ -6,10 +6,6 @@
     opacity: 0.9;
 }
 
-body {
-    margin: 0;
-}
-
 /* Header */
 .header {
     display: flex;
@@ -36,7 +32,7 @@ body {
 }
 
 .navigation {
-    right: 10px;
+    right: 0;
     font-size: 22px;
 }
 
@@ -69,7 +65,7 @@ body {
 /* Featured Tea Section */
 #featured-tea {
     max-width: 1000px;
-    margin: 75px auto 0;
+    margin: 75px auto;
     flex-wrap: wrap;
 }
 
@@ -119,4 +115,8 @@ body {
  .container-2 h3,
  .container-2 p {
      padding: 7px;
+ }
+
+ .footer {
+     margin-top: 0;
  }
